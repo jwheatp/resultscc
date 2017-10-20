@@ -1,0 +1,83 @@
+body {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  background: whitesmoke;
+}
+
+h3 {
+  margin-top: 2rem;
+  margin-bottom: 0;
+  color: #73C8A9;
+  font-family: 'Share Tech', sans-serif;
+
+}
+
+h1 {
+  color: #373B44;
+  font-size: 45px;
+  margin-top: 0;
+  text-shadow: 4px 3px 0px #fff, 9px 8px 0px rgba(0,0,0,0.15);
+  font-family: 'Bowlby One SC', cursive;
+}
+
+h1, h3 {
+    text-align: center;
+}
+
+h4 {
+  color: #BD5532;
+  font-size: 2em;
+  text-align: center;
+  font-family: 'Bowlby One SC', cursive;
+}
+
+.row {
+  margin-bottom: 1rem;
+}
+.row .row {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+[class*="col-"] {
+  padding: 1rem;
+}
+
+hr {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.screenshot {
+  width: 100%;
+}
+
+article {
+  color: #BD5532;
+  border-radius: 10px;
+  background: white;
+  padding: 20px;
+}
+
+article:hover {
+  background: #BD5532;
+  color: white;
+  cursor: pointer;
+}
+
+article:hover h4, article:hover h5 {
+  color: white;
+}
+
+h5 {
+  color: grey;
+  font-size: 1.2em;
+  text-align: center;
+  font-family: 'Share Tech', sans-serif;
+}
+
+@media (min-width: 1200px)
+{
+.container {
+    width: 95%;
+}
+}
